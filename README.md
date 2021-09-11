@@ -141,17 +141,15 @@ You'll see something like this:
 
 ```
 >>= branch-1
-* d0d07e9 branch-1-2
-* 135f320 branch-1-1
-* 7a543b6 main-2
-* 3c60e4d main-1
+* efcbac1 branch-1-2
+* 1c146d3 branch-1-1
+* ed6e853 main-2
+* bf153b3 main-1
 >>= main
-* a5ab28c main-6-1
-* dd088f7 main-5-1
-* e130f3b main-4
-* f0da3c7 main-3
-* 7a543b6 main-2
-* 3c60e4d main-1
+* 65429ee main-4
+* cfbea07 main-3
+* ed6e853 main-2
+* bf153b3 main-1
 ```
 
 branch-1 diverges from main after the second commit.
