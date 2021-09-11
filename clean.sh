@@ -12,5 +12,5 @@ git init
 
 git config init.defaultBranch main
 
-git config alias.hist 'log --graph --pretty="%h %Cgreen%cr %Creset%s" -20'
+git config alias.hist 'log --graph --pretty="%Cgreen%h%Creset %s" -20'
 

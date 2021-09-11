@@ -9,7 +9,14 @@ then
   echo "Must run in $REPO_DIR"
 fi
 
-# Creates one or more files, adds them to staging, then commits the lot.
+log() {
+  for LINE in "$@"
+  do
+    echo ">>= $LINE"
+  done
+}
+
+# Creates one or more files, appends the commit message to each, adds them to staging, then commits the lot.
 # Usage: <commit> <files...>
 touchAndGo() {
   local COMMIT="$1"
