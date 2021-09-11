@@ -41,7 +41,7 @@ nothing to commit, working tree clean
 main-1	main-2	main-3	main-4
 ```
 
-Each files is named after the commit that introduced it, making them easy to keep track of.
+Each file is named after the commit that introduced it, making them easy to keep track of.
 
 Run the following:
 ```bash
